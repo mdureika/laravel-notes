@@ -9,10 +9,6 @@
 <body>
     <h1>Note list!</h1>
     <?php
-    $notes = [
-        "programmēt",
-        "iet gulēt"
-    ];
 
     echo "<ul>";
     foreach($notes as $note) {

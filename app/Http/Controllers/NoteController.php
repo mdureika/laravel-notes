@@ -6,7 +6,13 @@ namespace App\Http\Controllers;
 
 class NoteController extends Controller
 {
-    public function index() {
-        return view('index');
+    public function index()
+    {
+        $notes = [
+            'programmēt',
+            'iet gulēt',
+        ];
+
+        return view('index', ['notes' => $notes]);
     }
 }
