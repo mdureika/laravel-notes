@@ -1,0 +1,13 @@
+{
+    "editor.autoClosingTags": true,
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.autoClosingQuotes": "languageDefined",
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "emmet.includeLanguages": {
+        "blade": "html"
+    },
+    "html.autoClosingTags": true
+}
